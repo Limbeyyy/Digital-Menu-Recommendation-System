@@ -11,7 +11,7 @@ vectorizer = joblib.load(r"saved_model\count_v_res.joblib")
 
 # Food keywords
 import pandas as pd 
-food_csv = r"C:\Users\Hp\Desktop\Food_Digital_Menu\Recomendaiton.csv"
+food_csv = r"C:\Users\Hp\Desktop\Recommendation Systems\Menu List\Recomendaiton.csv"
 food_keywords = pd.read_csv(food_csv)['food_name'].tolist()
 #please add the menu items from our Digital Menu(all of them in list format)
 
